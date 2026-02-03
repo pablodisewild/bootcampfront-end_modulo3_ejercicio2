@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: #2B2B2C;
 }
 h3 {
   margin-bottom: 0.5rem;
@@ -8,6 +9,10 @@ p {
   margin-bottom: 1rem;
 }
 .l-products {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 2rem;
 }
 .product {
@@ -19,6 +24,7 @@ p {
 }
 .product-image {
   width: 100%;
+  height: auto;
   margin-bottom: 1rem;
 }
 .product-title {
@@ -33,6 +39,7 @@ p {
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
+  border-radius: 4px;
 }
 .is-featured {
   border: 2px dotted #E13B15;

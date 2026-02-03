@@ -1,3 +1,12 @@
+body {
+  background-color: #2B2B2C;
+}
+.products {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .product-card {
   background-color: #1f1f1f;
   padding: 1.5rem;

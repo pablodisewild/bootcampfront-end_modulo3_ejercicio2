@@ -1,8 +1,21 @@
+body {
+  background-color: #2B2B2C;
+}
+.products {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .container {
   padding: 1.5rem;
   border-radius: 8px;
   max-width: 260px;
   text-align: center;
+}
+h3 {
+  color: #F85737;
+  font-family: sans-serif;
 }
 .media-image {
   width: 100%;
@@ -11,12 +24,15 @@
 }
 .text-block {
   margin-bottom: 1rem;
+  color: white;
 }
 .btn {
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  background-color: #EEC79A;
+  color: #272727;
 }
 .skin-featured {
   background-color: #1f1f1f;
