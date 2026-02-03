@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+h3 {
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+.l-products {
+  padding: 2rem;
+}
+.product {
+  background-color: #1f1f1f;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 260px;
+  text-align: center;
+}
+.product-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.product-title {
+  color: #F85737;
+}
+.product-price {
+  color: #ffffff;
+  font-weight: bold;
+}
+.product-btn {
+  background-color: #EEC79A;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.is-featured {
+  border: 2px dotted #E13B15;
+}
